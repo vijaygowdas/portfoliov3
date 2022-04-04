@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="24" height="24" transform="translate(114.049 0.049)" fill="#e8ff00"/>
+    </clipPath>
+    <clipPath id="clip-night-mode">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="night-mode" clip-path="url(#clip-night-mode)">
+    <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(-102.049 11.951)" opacity="0.6" clip-path="url(#clip-path)">
+      <g id="night-mode-2" data-name="night-mode" transform="translate(114)">
+        <g id="Group_3" data-name="Group 3" transform="translate(0)">
+          <path id="Path_19" data-name="Path 19" d="M25.36,17.349a.706.706,0,0,0-.811-.182A9.858,9.858,0,0,1,10.78,8.122,9.8,9.8,0,0,1,13.62,1.2.706.706,0,0,0,13,.01,12.145,12.145,0,0,0,3.616,16.125a5.326,5.326,0,0,1,8.468,2.305,3.754,3.754,0,0,1,1.268,5.554,12.313,12.313,0,0,0,1.663.113,12.121,12.121,0,0,0,10.42-5.92A.706.706,0,0,0,25.36,17.349Z" transform="translate(-1.438 0)" fill="#e8ff00"/>
+          <path id="Path_20" data-name="Path 20" d="M8.9,40.24H2.344a2.344,2.344,0,0,1-.571-4.617,3.911,3.911,0,0,1,7.694,0A2.344,2.344,0,0,1,8.9,40.24Z" transform="translate(0 -16.143)" fill="#e8ff00"/>
+        </g>
+        <g id="Group_4" data-name="Group 4" transform="translate(11.745 4.412)">
+          <path id="Path_21" data-name="Path 21" d="M32.29,16.612H25.739a2.344,2.344,0,0,1-.571-4.617,3.911,3.911,0,0,1,7.694,0,2.344,2.344,0,0,1-.571,4.617Z" transform="translate(-23.395 -8.789)" fill="#e8ff00"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

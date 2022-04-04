@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-SPRK_default_preset_name_custom_1">
+      <rect width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="SPRK_default_preset_name_custom_1" data-name="SPRK_default_preset_name_custom – 1" clip-path="url(#clip-SPRK_default_preset_name_custom_1)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="13" cy="13" r="13" transform="translate(11 11)" fill="#686868" opacity="0"/>
+    <g id="Ellipse_3" data-name="Ellipse 3" fill="none" stroke="#707070" stroke-width="4" opacity="0">
+      <circle cx="24" cy="24" r="24" stroke="none"/>
+      <circle cx="24" cy="24" r="22" fill="none"/>
+    </g>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="4" cy="4" r="4" transform="translate(20 20)" fill="#707070" opacity="0"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="4" height="10" rx="2" transform="translate(22)" fill="#707070"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="4" height="10" rx="2" transform="translate(22 38)" fill="#707070"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="4" height="10" rx="2" transform="translate(0 26) rotate(-90)" fill="#707070"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="4" height="10" rx="2" transform="translate(38 26) rotate(-90)" fill="#707070"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="4" height="10" rx="2" transform="translate(33.05 35.879) rotate(-45)" fill="#707070"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="4" height="10" rx="2" transform="translate(5.05 7.879) rotate(-45)" fill="#707070"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="4" height="10" rx="2" transform="translate(35.879 14.95) rotate(-135)" fill="#707070"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="4" height="10" rx="2" transform="translate(7.879 42.95) rotate(-135)" fill="#707070"/>
+  </g>
+</svg>
