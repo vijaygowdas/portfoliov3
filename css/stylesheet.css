@@ -35,6 +35,12 @@
   background-color: transparent;
 }
 
+*:focus {
+  outline: 0 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 * {
   scrollbar-width: auto;
   scrollbar-color: #777777 transparent;
@@ -164,6 +170,11 @@ body.defaultCursor.activeLink .cursor {
   display: none;
 }
 
+.loading {
+  overflow: hidden;
+  height: 100vh;
+}
+
 .preloader {
   background-color: #000;
   position: fixed;
@@ -182,7 +193,6 @@ body.defaultCursor.activeLink .cursor {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   overflow: hidden;
-  display: none;
 }
 
 .preloader.preloaderClose {
@@ -516,10 +526,12 @@ section {
 }
 
 .about .aboutWrap .aboutTxt div.btnBox .btn {
-  border: solid 1px black;
+  background: transparent;
+  color: #0C0C0C;
+  border: solid 1px #0C0C0C;
+  position: relative;
   border-radius: 0px;
-  margin: 0px 12px;
-  padding: 8px 36px;
+  padding: 8px 24px;
 }
 
 .about .aboutWrap .aboutTxt span {
@@ -631,6 +643,7 @@ section {
   -webkit-box-orient: vertical;
   overflow: hidden;
   min-height: 100px;
+  text-align: left;
   display: none;
 }
 

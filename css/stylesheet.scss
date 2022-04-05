@@ -36,6 +36,11 @@
     background-color: transparent;
 }
 
+*:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
 // Scrollbar CSS
 // Firefox
 * {
@@ -161,8 +166,8 @@ body {
 }
 
 .loading {
-    // overflow: hidden;
-    // height: 100vh;
+    overflow: hidden;
+    height: 100vh;
 }
 
 .preloader {
@@ -177,7 +182,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     overflow: hidden;
-    display: none;
+    // display: none;
     &.preloaderClose {
         transform: translateY(-100%);
         transition: all 0.8s;
@@ -444,10 +449,12 @@ section {
                     justify-content: end;
                     margin-top: 40px;
                     .btn {
-                        border: solid 1px black;
+                        background: transparent;
+                        color: #0C0C0C;
+                        border: solid 1px #0C0C0C;
+                        position: relative;
                         border-radius: 0px;
-                        margin: 0px 12px;
-                        padding: 8px 36px;
+                        padding: 8px 24px;
                     }
                 }
             }
@@ -535,6 +542,7 @@ section {
             -webkit-box-orient: vertical;
             overflow: hidden;
             min-height: 100px;
+            text-align: left;
             display: none;
         }
     }
