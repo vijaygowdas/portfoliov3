@@ -406,7 +406,7 @@ section {
     }
     .aboutWrap {
         position: relative;
-        padding: 60px 80px 120px;
+        padding: 60px 80px 100px;
         &::before {
             content: "";
             position: absolute;
@@ -439,12 +439,24 @@ section {
             padding-left: 120px;
             div {
                 margin-top: 28px;
+                &.btnBox {
+                    display: flex;
+                    justify-content: end;
+                    margin-top: 40px;
+                    .btn {
+                        border: solid 1px black;
+                        border-radius: 0px;
+                        margin: 0px 12px;
+                        padding: 8px 36px;
+                    }
+                }
             }
             span {
                 position: relative;
                 display: inline-flex;
                 align-items: center;
                 justify-content: center;
+                white-space: nowrap;
                 &::before {
                     content: attr(data-txt);
                     position: absolute;
@@ -513,14 +525,17 @@ section {
         }
         h5 {
             font-size: 24px;
-            margin: 8px 0px 24px;
+            margin: 8px 0px;
         }
         p {
             font-size: 16px;
+            margin-top: 24px;
             display: -webkit-box;
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
+            min-height: 100px;
+            display: none;
         }
     }
 }
@@ -613,6 +628,7 @@ section {
     min-height: auto;
     margin: 80px 0px;
     padding: 60px 0px 80px;
+    display: none;
     &::before {
         position: absolute;
         content: '';
@@ -665,7 +681,7 @@ section {
 
 .contact {
     min-height: auto;
-    padding: 120px 0px 0px;
+    // padding: 120px 0px 0px;
     .contactWrap {
         min-height: calc(100vh - 219px);
         display: flex;
